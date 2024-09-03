@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # Load the model
-model = joblib.load('XGBoost.pkl')
+model = joblib.load('rf_classifier.pkl')
 
 # Define feature options
 cp_options = {
